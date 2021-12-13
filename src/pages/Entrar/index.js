@@ -16,6 +16,8 @@ import styles from './styles';
         <View style={styles.botons}>
           <View style={styles.escribe}>
             <Text  style={ styles.enter}>Enter to iFunny </Text>
+          </View>
+          <View style={styles.descriptions}>
             <Text  style={styles.coments} >comment on memes, subscribe to fellow accounts, upload content, check notifications and etc.</Text>
           </View>
           <TouchableOpacity style={styles.email} onPress={()=>navigation.navigate("Aplicativo")}>

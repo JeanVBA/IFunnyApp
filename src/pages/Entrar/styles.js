@@ -17,6 +17,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
        alignItems: 'center'
     },
+    descriptions:{
+      marginLeft:10,
+      justifyContent: 'center',
+      alignItems:'center',
+    },
     enter:{
         color: '#fff', 
         fontStyle: 'italic', 
